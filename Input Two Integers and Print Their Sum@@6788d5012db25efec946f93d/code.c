@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main(){
     int a;
-    scanf("%d"&a);
+    scanf("%d"&d);
     printf("%d",a);
     int b;
-    scanf("%d",&b);
+    scanf("%d",&d);
     printf("%d",b);
-    int c=a+b;
+    int c=(a+b);
     printf("Sum: %d",c);
     return 0;
 }
