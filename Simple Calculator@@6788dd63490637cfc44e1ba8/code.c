@@ -2,10 +2,9 @@
 int main(){
     int a,b;
     char x;
-    scanf("%d%d",&a,&b);
-    scanf("%c",&x);
+    scanf("%d%d%C",&a,&b,&x);
     if (x == '+'){
-        printf("%d\n",a + b);
+        printf("%d\n",a+b);
     }else if(x == '-'){
         printf("%d\n",a-b);
     }else if (x == '*'){
