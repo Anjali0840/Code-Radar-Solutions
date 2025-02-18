@@ -22,7 +22,7 @@ int main(){
         printf("Saturday\n");
         break;
         case 7:
-        printf("Sunday"\n);
+        printf("Sunday\n");
         break;
         default:
         printf("Invalid\n");
