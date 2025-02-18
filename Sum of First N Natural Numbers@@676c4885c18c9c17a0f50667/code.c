@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main(){
-    int a,i,s;
+    int a,i,sum;
     scanf("%d",&a);
-    for (i=1 ; i<=a ; i--){
-        printf("%d",s+=i);
-    }
+    for (i=1 ; i<=a ; i++){
+        sum +=i;
+    } 
+    printf("%d",sum);
     return 0;
 }
