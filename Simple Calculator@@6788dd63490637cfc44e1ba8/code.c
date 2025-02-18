@@ -8,6 +8,10 @@ int main(){
         printf("%d",sum);
     }else if(c=='-'){
         printf("%d",a-b);
+    }else if (c=='*'){
+        printf("%d",a*b);
+    }else if (c=='/'){
+        printf("%d",a/b)
     }else{
         printf("error");
     }
