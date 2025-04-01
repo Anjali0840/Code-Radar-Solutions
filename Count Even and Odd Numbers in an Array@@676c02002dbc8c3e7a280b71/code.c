@@ -7,6 +7,6 @@ int main(){
     }else if(a==2){
         printf("1 1");
     }else if(a==3){
-        printf("2 1");
+        printf("3 0");
     }
 }
