@@ -14,15 +14,14 @@
      if(arr[i]>arr[i-1]){
          decreasing = 0;
      }
-     else{
      else if(arr[i]<arr[i-1]){
          increasing = 0;
      }
-   }
-    if(increasing||decreasing){
+    else if(increasing||decreasing){
      printf("YES");
     }
     else{
      printf("NO");
     }
   }
+ }
