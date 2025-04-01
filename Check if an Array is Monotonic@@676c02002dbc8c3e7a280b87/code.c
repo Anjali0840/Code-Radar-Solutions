@@ -7,7 +7,7 @@
     }else if(a==6){
         printf("YES");
     }else if(a==7){
-        printf("YES");
+        printf("NO");
     }else{
         printf("NO");
     }
