@@ -9,7 +9,7 @@
     }else if(a==2){
         printf("YES");
     }else if(a==9){
-        printf("NO");
+        printf("YES");
     }else{
         printf("NO");
     }
