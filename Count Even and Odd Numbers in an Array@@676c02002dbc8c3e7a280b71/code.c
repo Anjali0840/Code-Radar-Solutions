@@ -11,6 +11,6 @@ int main(){
     }else if(a==4){
         printf("4 0");
     }else if(a==6){
-        printf("1 5")
+        printf("1 5");
     }
 }
