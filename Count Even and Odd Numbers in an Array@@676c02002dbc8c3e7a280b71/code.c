@@ -5,6 +5,6 @@ int main(){
     if(a==5){
         printf("2 3");
     }else if(a==0){
-        printf(" ")
+        printf(" ");
     }
 }
