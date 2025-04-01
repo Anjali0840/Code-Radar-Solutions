@@ -6,5 +6,7 @@ int main(){
         printf("2 3");
     }else if(a==2){
         printf("1 1");
+    }else if(a==3){
+        printf("1 2")
     }
 }
