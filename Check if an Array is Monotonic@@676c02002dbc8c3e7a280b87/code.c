@@ -11,7 +11,7 @@
     }else if(a==1){
         printf("YES");
     }else if(a==0){
-        printf("YES")
+        printf("YES");
     }else{
         printf("NO");
     }
