@@ -18,6 +18,9 @@ int main(){
         arr[j] = arr[j-1];
         }
         arr[0] = temp;
-
      }
+
+     for(int i =0 ;i<N;i++){
+        printf("%d\n",arr[i]);
+     }
 }
