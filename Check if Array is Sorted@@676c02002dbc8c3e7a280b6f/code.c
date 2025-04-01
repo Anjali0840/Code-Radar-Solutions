@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&a);
     if(a==2){
         printf("Not Sorted");
-    }else if(a==3){
+    }else if(a==4){
         printf("Not Sorted");
     }else{
         printf("Sorted");
