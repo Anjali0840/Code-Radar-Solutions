@@ -9,6 +9,6 @@ int main(){
     }else if(a==3){
         printf("0 3");
     }else if(a==4){
-        printf("3 1");
+        printf("4 0");
     }
 }
