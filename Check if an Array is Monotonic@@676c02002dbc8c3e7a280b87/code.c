@@ -13,7 +13,7 @@
     }else if(a==0){
         printf("YES");
     }else{
-        printf("NO")
+        printf("NO");
     }
     
   }
