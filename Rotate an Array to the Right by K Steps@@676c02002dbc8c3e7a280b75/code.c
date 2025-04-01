@@ -2,17 +2,19 @@
 int main(){
     int N;
     scanf("%d",&N);
-    int arr[N];
-    for(int i = 0;i<N;i++){
-        scanf("%d",&arr[i]);
+     int arr[N];
+    for (int i = 0; i < N; i++) {
+        scanf("%d", &arr[i]);  
     }
-    int i;
-    int ar[i];
-        
-        if(ar[i]<=arr[N-1] ){
-            printf("Sorted");
+
+
+     int k ;
+     scanf("%d",&k);
+
+     k = k%N;
+     for(int i = 0;i<k;i++){
+        int temp = arr[N-1];
+        for(int j = N-1 ; j>0;j--){
+        arr[j] = arr[j-1];
         }
-        else{
-            printf("Not Sorted");
-        }
-}
+        arr[0] = temp;
